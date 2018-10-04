@@ -53,6 +53,10 @@
             text-decoration: none;
             text-transform: uppercase;
         }
+        
+        img.img-fluid {
+            min-width: 65vw;
+        }
     </style>
 </head>
 <body>
