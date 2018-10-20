@@ -1,84 +1,51 @@
-<!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <title>Epicteq</title>
-    
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
-    
-    <!-- Styles -->
-    <style>
-        html, body {
-            background-color: #fff;
-            color: #636b6f;
-            font-family: 'Nunito', sans-serif;
-            font-weight: 200;
-            height: 100vh;
-            margin: 0;
-        }
-        
-        .full-height {
-            height: 100vh;
-        }
-        
-        .flex-center {
-            align-items: center;
-            display: flex;
-            justify-content: center;
-        }
-        
-        .position-ref {
-            position: relative;
-        }
-        
-        .top-right {
-            position: absolute;
-            right: 10px;
-            top: 18px;
-        }
-        
-        .content {
-            text-align: center;
-        }
-        
-        .links > a {
-            color: #636b6f;
-            padding: 0 25px;
-            font-size: 12px;
-            font-weight: 600;
-            letter-spacing: .1rem;
-            text-decoration: none;
-            text-transform: uppercase;
-        }
-        
-        img.img-fluid {
-            min-width: 65vw;
-        }
-    </style>
-</head>
-<body>
-<div class="flex-center position-ref full-height">
-    @if (Route::has('login'))
-        <div class="top-right links">
-            @auth
-                <a href="{{ url('/home') }}">Home</a>
-            @else
-                <a href="{{ route('login') }}">Login</a>
-                
-                @if (Route::has('register'))
-                    <a href="{{ route('register') }}">Register</a>
-                @endif
-            @endauth
-        </div>
-    @endif
-    
-    <div class="content">
-        <div class="flex-center">
-            <img class="img-fluid" src="{{ secure_asset('svg/Epicteq-logo.svg') }}" alt="Epicteq">
+@extends('layouts.app')
+
+@section('content')
+    <div class="container-fluid no-gutters mainGradient bottomMargin">
+        <div class="row">
+            <div class="col">
+                {{--<div class="flex-center">--}}
+                {{--<img class="img-fluid" src="{{ secure_asset('svg/Epicteq-logo.svg') }}" alt="Epicteq">--}}
+                {{--</div>--}}
+                <div class="homeJumbo transparent-bg">
+                    <h1
+                    class="text-center text-white">Building quality software for the web to help businesses solve their problems and grow their companies.</h1>
+                </div>
+            </div>
         </div>
     </div>
-</body>
-</html>
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <div class="card" style="width: 18rem;">
+                    <i class="logoBlueColor iconPad fas fa-space-shuttle fa-rotate-270 fa-7x fa-w-20 card-img-top"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">New Heights</h5>
+                        <p
+                        class="card-text">Let our software take your business to new heights while making your lives easier.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col text-center">
+                <div class="card" style="width: 18rem;">
+                    <i class="logoBlueColor iconPad fas fa-user-shield fa-7x fa-w-20 card-img-top"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Protection</h5>
+                        <p
+                        class="card-text">We offer protection from you building your own solutions through rushed timelines and production schedules.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col text-center">
+                <div class="card" style="width: 18rem;">
+                    <i class="logoBlueColor iconPad fas fa-clock fa-7x fa-w-20 card-img-top"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Time is money</h5>
+                        <p
+                        class="card-text">We help save you and your employees time so it can be spent on growing your business.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+@endsection

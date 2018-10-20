@@ -1,13 +1,9 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
 // Variables
 @import 'variables';
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
-
-html, body {
-    background: var(--gray-dark);
-}
 
 .navbar {
     background-color: var(--light);
@@ -16,4 +12,42 @@ html, body {
 
 .navbar-brand {
     width: 200px;
+}
+
+.iconPad {
+    padding: 1rem;
+}
+
+.bottomMargin {
+    margin-bottom: 1rem;
+}
+
+.homeJumbo {
+    padding: 14rem 2rem;
+    margin-bottom: 1rem;
+}
+
+.homeJumbo > h1 {
+    font-size: 4.25rem;
+    text-shadow: 0 0 7px #111;
+}
+
+.transparent-bg {
+    background: transparent;
+}
+
+.logoBlueColor {
+    color: $logoBlue;
+}
+
+.logoRedColor {
+    color: $logoRed;
+}
+
+.mainGradient {
+    background: #247BA0;
+    background: linear-gradient(to right, #247BA0, #EF3C44);
+    background: -webkit-linear-gradient(to right,#247BA0, #EF3C44); /* For Safari */
+    background: -o-linear-gradient(#247BA0, #EF3C44); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#247BA0, #EF3C44); /* For Firefox 3.6 to 15 */
 }
