@@ -16,7 +16,7 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col text-center">
+            <div class="col text-center d-flex align-items-stretch">
                 <div class="card" style="width: 18rem;">
                     <i class="logoBlueColor iconPad fas fa-space-shuttle fa-rotate-270 fa-7x fa-w-20 card-img-top"></i>
                     <div class="card-body">
@@ -26,7 +26,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col text-center">
+            <div class="col text-center d-flex align-items-stretch">
                 <div class="card" style="width: 18rem;">
                     <i class="logoBlueColor iconPad fas fa-user-shield fa-7x fa-w-20 card-img-top"></i>
                     <div class="card-body">
@@ -36,7 +36,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col text-center">
+            <div class="col text-center d-flex align-items-stretch">
                 <div class="card" style="width: 18rem;">
                     <i class="logoBlueColor iconPad fas fa-clock fa-7x fa-w-20 card-img-top"></i>
                     <div class="card-body">
