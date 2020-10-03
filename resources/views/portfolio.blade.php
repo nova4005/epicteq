@@ -6,7 +6,7 @@
             <div class="col">
                 <div class="homeJumbo transparent-bg">
                     <h1
-                    class="text-center text-white">Building quality software for the web to help businesses solve their problems and grow their companies.</h1>
+                    class="text-center text-white">Check out some of the work we have done!</h1>
                 </div>
             </div>
         </div>
@@ -15,31 +15,31 @@
         <div class="row">
             <div class="col text-center d-flex align-items-stretch">
                 <div class="card" style="width: 18rem;">
-                    <i class="logoBlueColor iconPad fas fa-space-shuttle fa-rotate-270 fa-7x fa-w-20 card-img-top"></i>
+                    <img src="https://via.placeholder.com/200x150" alt="Placeholder">
                     <div class="card-body">
-                        <h5 class="card-title">New Heights</h5>
+                        <h5 class="card-title">Project 1</h5>
                         <p
-                        class="card-text">Let our software take your business to new heights while making your lives easier.</p>
+                        class="card-text">Description and information here.</p>
                     </div>
                 </div>
             </div>
             <div class="col text-center d-flex align-items-stretch">
                 <div class="card" style="width: 18rem;">
-                    <i class="logoBlueColor iconPad fas fa-user-shield fa-7x fa-w-20 card-img-top"></i>
+                    <img src="https://via.placeholder.com/200x150" alt="Placeholder">
                     <div class="card-body">
-                        <h5 class="card-title">Protection</h5>
+                        <h5 class="card-title">Project 2</h5>
                         <p
-                        class="card-text">We offer protection from you building your own solutions through rushed timelines and production schedules.</p>
+                        class="card-text">Description and information here.</p>
                     </div>
                 </div>
             </div>
             <div class="col text-center d-flex align-items-stretch">
                 <div class="card" style="width: 18rem;">
-                    <i class="logoBlueColor iconPad fas fa-clock fa-7x fa-w-20 card-img-top"></i>
+                    <img src="https://via.placeholder.com/200x150" alt="Placeholder">
                     <div class="card-body">
-                        <h5 class="card-title">Time is money</h5>
+                        <h5 class="card-title">Project 3</h5>
                         <p
-                        class="card-text">We help save you and your employees time so it can be spent on growing your business.</p>
+                        class="card-text">Description and information here.</p>
                     </div>
                 </div>
             </div>
