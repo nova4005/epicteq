@@ -13,6 +13,11 @@
     </div>
     <div class="container">
         <div class="row">
+            <img src="{{ asset('video/Build A Product Animation/Build Product Illustration - Colour /build  product.svg') }}" alt="Robot">
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
             <div class="col text-center d-flex align-items-stretch">
                 <div class="card" style="width: 18rem;">
                     <img src="https://via.placeholder.com/200x150" alt="Placeholder">

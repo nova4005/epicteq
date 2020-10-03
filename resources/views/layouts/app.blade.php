@@ -78,7 +78,7 @@
             <main>
                 @yield('content')
             </main>
-            <footer class="footer mt-lg-4 py-lg-4 bg-primary text-white">
+            <footer class="footer mt-lg-4 py-lg-4 bg-dark text-white">
                 <p class="text-center">copyright &copy {{ now()->year }}</p>
             </footer>
         </div>
